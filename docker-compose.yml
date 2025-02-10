@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   php-fpm:
-    image: php-fpm-pr
+    image: php-fpm-pr:8.2
     container_name: php-fpm
     volumes:
       - ./:/var/www/html
